@@ -102,7 +102,7 @@
 }
 
 .section-2 .container .row {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 .section-2 .container .row .card {
@@ -113,8 +113,8 @@
           box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   -webkit-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 200ms;
-          transition-duration: 200ms;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 
 .section-2 .container .row .card img {
@@ -131,6 +131,31 @@
 
 .section-3 {
   height: 100vh;
-  background-color: lightpink;
+  color: #1c1b20;
+}
+
+.section-3 .container-fluid .row .col-md {
+  height: 90vh;
+}
+
+.section-3 .container-fluid .row .img-container {
+  background-image: url("../images/tile-4.jpg");
+  background-size: cover;
+}
+
+.section-3 .container-fluid .row .text-container {
+  background-color: white;
+}
+
+.section-3 .container-fluid .row .text-container h2 {
+  text-transform: uppercase;
+}
+
+.section-3 .container-fluid .row .text-container .line {
+  border-color: #1c1b20;
+}
+
+.section-3 .container-fluid .row .text-container p {
+  padding: 0 15%;
 }
 /*# sourceMappingURL=home.css.map */

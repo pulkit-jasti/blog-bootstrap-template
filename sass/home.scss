@@ -108,7 +108,7 @@ $silver:#f8f8f8;
         }
 
         .row{
-            padding-bottom: 60px;
+            padding-bottom: 80px;
 
             .card{
                 margin: 50px auto;
@@ -116,7 +116,7 @@ $silver:#f8f8f8;
                 border-radius: 0px !important;
                 box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
                 transition-property: all;
-                transition-duration: 200ms;
+                transition-duration: 300ms;
 
                 img{
                     border-radius: 0px !important;
@@ -135,5 +135,34 @@ $silver:#f8f8f8;
 
 .section-3{
     height: 100vh;
-    background-color: lightpink;
+    color: $not-black-but-dark;
+
+    .container-fluid{
+        .row{
+            .col-md{
+                height: 90vh;
+            }
+
+            .img-container{
+                background-image: url('../images/tile-4.jpg');
+                background-size: cover;
+            }
+
+            .text-container{
+                background-color: white;
+
+                h2{
+                    text-transform: uppercase;
+                }
+
+                .line{
+                    border-color: $not-black-but-dark;
+                }
+
+                p{
+                    padding: 0 15%;
+                }
+            }
+        }
+    }
 }
