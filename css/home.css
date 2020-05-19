@@ -1,0 +1,50 @@
+* {
+  background-repeat: no-repeat;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.section-1 {
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+}
+
+.section-1 .container-fluid {
+  height: 100%;
+  border: 5px solid white;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/808510/pexels-photo-808510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  color: white;
+  text-transform: uppercase;
+}
+
+.section-1 .container-fluid .nav-bar {
+  width: 100%;
+}
+
+.section-1 .container-fluid .nav-bar .nav-brand {
+  float: left;
+}
+
+.section-1 .container-fluid .nav-bar .btn-container {
+  float: right;
+}
+
+.section-1 .container-fluid .nav-bar .btn-container button {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.section-1 .container-fluid .hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 5rem;
+}
+/*# sourceMappingURL=home.css.map */
