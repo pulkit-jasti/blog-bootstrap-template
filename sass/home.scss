@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
 *{
     background-repeat: no-repeat;
     font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -21,20 +24,33 @@
 
         .nav-bar{
             width: 100%;
+            margin-top: 20px;
 
             .nav-brand{
                 float: left;
+                font-size: 1.5rem;
+                font-weight: 400;
             }
 
             .btn-container{
                 float: right;
+                display: flex;
 
-                button{
+                div{
+                    height: 45px;
+                    margin: 0 10px;
                     text-transform: uppercase;
                     letter-spacing: 2px;
                     background: none;
                     border: none;
                     color: white;
+                    line-height: 45px;
+                    text-align: center;
+                }
+
+                .sub{
+                    padding: 0 15px;
+                    border: 2px solid white;
                 }
             }
         }
@@ -44,7 +60,22 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
-            font-size: 5rem;
+            
+            .title-text{
+                font-size: 5rem;
+            }
+
+            .sub-title{
+                font-size: 1.2rem;
+                font-weight: 400;
+                margin-bottom: 30px;
+            }
+
+            .line{
+                margin: 0 auto;
+                width: 100px;
+                border: 2px solid white;
+            }
         }
     }
 }
