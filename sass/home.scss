@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
 
+
+$gray:#343436;
+$not-black-but-dark:#1c1b20;
+$silver:#f8f8f8;
+
+
+
 *{
     background-repeat: no-repeat;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
+    font-weight: 400;
+}
+
+.line{
+    margin: 0 auto;
+    width: 100px;
+    border: 2px solid white;
+    margin-bottom: 40px;
 }
 
 
@@ -71,11 +86,54 @@
                 margin-bottom: 30px;
             }
 
-            .line{
-                margin: 0 auto;
-                width: 100px;
-                border: 2px solid white;
+        }
+    }
+}
+
+
+.section-2{
+    background-color: $silver;
+    color: $not-black-but-dark !important;
+    
+    .container{
+        height: 100%;
+
+        h2{
+            padding-top: 50px;
+            text-transform: uppercase;
+        }
+
+        .line{
+            border-color: black;
+        }
+
+        .row{
+            padding-bottom: 60px;
+
+            .card{
+                margin: 50px auto;
+                border: none;
+                border-radius: 0px !important;
+                box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+                transition-property: all;
+                transition-duration: 200ms;
+
+                img{
+                    border-radius: 0px !important;
+                }
+
+                &:hover{
+                    transform: scale(1.05,1.05);
+                    cursor: pointer;
+                    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+                }
             }
         }
     }
+}
+
+
+.section-3{
+    height: 100vh;
+    background-color: lightpink;
 }
