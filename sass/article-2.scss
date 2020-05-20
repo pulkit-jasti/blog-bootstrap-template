@@ -44,9 +44,9 @@ container-fluid{
         height: 100%;
         border: 5px solid white;
         position: relative;
-        background-image: url('https://images.unsplash.com/photo-1475257026007-0753d5429e10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+        background-image: url('https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
         background-size: cover;
-        color: white;
+        color: $gray;
         text-transform: uppercase;
 
         .nav-bar{
@@ -70,21 +70,21 @@ container-fluid{
                     letter-spacing: 2px;
                     background: none;
                     border: none;
-                    color: white;
+                    color: $gray;
                     line-height: 45px;
                     text-align: center;
                 }
 
                 .sub{
                     padding: 0 15px;
-                    border: 2px solid white;
+                    border: 2px solid $gray;
                 }
             }
         }
 
         .hero-text{
             position: absolute;
-            top: 55vh;
+            top: 50vh;
             left: 50%;
             transform: translate(-50%,-50%);
             
@@ -94,6 +94,10 @@ container-fluid{
                 line-height: 4.5rem;
                 font-weight: 600;
                 padding-bottom: 20px;
+            }
+
+            .line{
+                border-color: $gray;
             }
         }
     }
@@ -180,8 +184,6 @@ container-fluid{
                 width: 150px;
                 text-align: center;
                 line-height: 40px;
-                transition-property: all;
-                transition-duration: 100ms;
 
                 &:hover{
                     background-color: $gray;

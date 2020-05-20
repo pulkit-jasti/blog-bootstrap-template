@@ -38,9 +38,9 @@ container-fluid {
   height: 100%;
   border: 5px solid white;
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1475257026007-0753d5429e10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-image: url("https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
   background-size: cover;
-  color: white;
+  color: #343436;
   text-transform: uppercase;
 }
 
@@ -69,19 +69,19 @@ container-fluid {
   letter-spacing: 2px;
   background: none;
   border: none;
-  color: white;
+  color: #343436;
   line-height: 45px;
   text-align: center;
 }
 
 .section-1 .container-fluid .nav-bar .btn-container .sub {
   padding: 0 15px;
-  border: 2px solid white;
+  border: 2px solid #343436;
 }
 
 .section-1 .container-fluid .hero-text {
   position: absolute;
-  top: 55vh;
+  top: 50vh;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -93,6 +93,10 @@ container-fluid {
   line-height: 4.5rem;
   font-weight: 600;
   padding-bottom: 20px;
+}
+
+.section-1 .container-fluid .hero-text .line {
+  border-color: #343436;
 }
 
 .section-2 {
@@ -179,10 +183,6 @@ container-fluid {
   width: 150px;
   text-align: center;
   line-height: 40px;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 100ms;
-          transition-duration: 100ms;
 }
 
 .section-2 .container-fluid .section-3 button:hover {
@@ -347,4 +347,4 @@ footer .container .top-btn:hover {
   color: white;
   cursor: pointer;
 }
-/*# sourceMappingURL=article-1.css.map */
+/*# sourceMappingURL=article-2.css.map */
