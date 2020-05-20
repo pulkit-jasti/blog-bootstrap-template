@@ -5,6 +5,11 @@
   outline: none !important;
 }
 
+a, a:hover, a::before, a::after {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
 * {
   background-repeat: no-repeat;
   font-family: 'Josefin Sans', sans-serif;
