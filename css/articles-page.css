@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none !important;
+}
+
+a, a:hover, a::before, a::after {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+* {
+  background-repeat: no-repeat;
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 400;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.line {
+  margin: 0 auto;
+  width: 100px;
+  border: 2px solid #343436;
+  margin-bottom: 40px;
+}
+
+.landing-page {
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+}
+
+.landing-page .container-fluid {
+  height: 100%;
+  border: 5px solid white;
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-position: center;
+  color: #343436;
+  text-transform: uppercase;
+}
+
+.landing-page .container-fluid .nav-bar {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.landing-page .container-fluid .nav-bar .nav-brand {
+  float: left;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.landing-page .container-fluid .nav-bar .btn-container {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing-page .container-fluid .nav-bar .btn-container div {
+  height: 45px;
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: none;
+  border: none;
+  color: #343436;
+  line-height: 45px;
+  text-align: center;
+}
+
+.landing-page .container-fluid .nav-bar .btn-container .sub {
+  padding: 0 15px;
+  border: 2px solid #343436;
+}
+
+.landing-page .container-fluid .hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landing-page .container-fluid .hero-text .title-text {
+  font-size: 5rem;
+}
+
+.landing-page .container-fluid .hero-text .sub-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.article-tile {
+  color: #1c1b20;
+  background-color: lightblue;
+  overflow-x: hidden;
+}
+
+.article-tile .container-fluid .row .col-md {
+  height: 90vh;
+  padding: 0;
+}
+
+.article-tile .container-fluid .row img {
+  height: 100%;
+}
+
+.article-tile .container-fluid .row .text-container {
+  background-color: white;
+}
+
+.article-tile .container-fluid .row .text-container h2 {
+  text-transform: uppercase;
+}
+
+.article-tile .container-fluid .row .text-container .line {
+  border-color: #1c1b20;
+}
+
+.article-tile .container-fluid .row .text-container p {
+  padding: 0 15%;
+}
+
+footer {
+  background-color: whitesmoke;
+  height: 200px;
+  width: 100%;
+}
+
+footer .container {
+  position: relative;
+  height: 100%;
+}
+
+footer .container .icon-container {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .container .icon-container .icon-wrapper {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #343436;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.1rem;
+  color: whitesmoke;
+}
+
+footer .container .top-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 50px;
+  width: 160px;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  background-color: whitesmoke;
+  border: 2px solid #1c1b20;
+}
+
+footer .container .top-btn i {
+  margin-left: 10px;
+}
+
+footer .container .top-btn:hover {
+  background-color: #343436;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=articles-page.css.map */
