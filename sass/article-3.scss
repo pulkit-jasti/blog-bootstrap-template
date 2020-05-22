@@ -73,11 +73,21 @@ container-fluid{
                     color: white;
                     line-height: 45px;
                     text-align: center;
+
+                    &:hover{
+                        cursor: pointer;
+                        color: rgba(255, 255, 255, 0.8);
+                    }
                 }
 
                 .sub{
                     padding: 0 15px;
                     border: 2px solid white;
+
+                    &:hover{
+                        background-color: white;
+                        color: $gray;
+                    }
                 }
             }
         }
@@ -289,6 +299,7 @@ footer{
     background-color: white;
     height: 200px;
     width: 100%;
+    overflow: hidden;
 
     .container{
         position: relative;
