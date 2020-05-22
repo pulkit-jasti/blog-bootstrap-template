@@ -87,15 +87,11 @@ $silver:#f8f8f8;
     .container-fluid{
         height: 100%;
         width: 100%;
-        position: relative;
         padding: 0;
 
         article{
-            position: relative;
-            top: -50%;
             width: 70%;
             margin: 0 auto;
-            margin-bottom: 100px;
             padding: 100px;
             background-color: white;
             //box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
@@ -119,11 +115,8 @@ $silver:#f8f8f8;
         }
 
         .section-3{
-            position: relative;
-            top: -80%;
             padding: 100px 0;
             padding-bottom: 170px;
-            margin-top: 100px;
             background-color: $silver;
 
             h2{
@@ -265,8 +258,6 @@ $silver:#f8f8f8;
 }
 
 footer{
-    position: relative;
-    top: -80%;
     background-color: white;
     height: 200px;
     width: 100%;
