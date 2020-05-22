@@ -1,39 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
-
-
 $gray:#343436;
 $not-black-but-dark:#1c1b20;
 $silver:#f8f8f8;
 
-*, *:before, *:after {
-	box-sizing: border-box;
-    outline: none !important;
-}
-
-a,a:hover,a::before,a::after{
-    text-decoration: none !important;
-    color: inherit !important;
-}
-
-*{
-    background-repeat: no-repeat;
-    font-family: 'Josefin Sans', sans-serif;
-    box-sizing: border-box;
-    font-weight: 400;
-    padding: 0;
-}
-
-.container-fluid{
-    padding: 0;
-}
-
 .line{
-    margin: 0 auto;
-    width: 100px;
-    border: 2px solid $gray;
-    margin-bottom: 40px;
+    //border: $not-black-but-dark;
 }
-
 
 .landing-page{
     height: 100vh;
