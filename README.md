@@ -1,3 +1,3 @@
-# blog-bootstrap-templet
+# blog-bootstrap-template
 
 ## URL:https://pulkit-jasti.github.io/blog-bootstrap-templet/
